@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sajjad Ahamed | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <header id="home">
+    <nav>
+      <h1>Sajjad Ahamed</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="image.jpg" alt="Sajjad Ahamed" class="profile-pic" />
+      <section id="about" data-aos="fade-down" data-aos-duration="100000">
+      <h2>Aspiring Software Developer</h2>
+    </section>
+      <p>Passionate and motivated individual eager to kickstart a career in software development.</p>
+    </div>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+      Proficient in Python, Java, SQL, and web development with strong analytical and collaboration skills.
+      with a Bachelor's degree in Computer Application  from The New College, Chennai (2022–2025).
+    </p>
+    <a href="./Sajjad_Resume.png" download target="_blank" class="download-btn">📄 Download Resume</a>
+  </section>
+
+  <section id="skills" data-aos="zoom-in" data-aos-delay="100">
+  <h2>Skills</h2>
+  <div class="skills-container">
+      <div><h3>Hard Skills</h3>
+        <ul>
+          <li>Python Programming</li>
+          <li>Java Programming</li>
+          <li>SQL Programming</li>
+          <li>Web Development</li>
+          <li>Graphic Designing</li>
+        </ul>
+      </div>
+      <div><h3>Soft Skills</h3>
+        <ul>
+          <li>Strong Adaptability</li>
+          <li>Teamwork & Collaboration</li>
+          <li>Leadership</li>
+          <li>Time Management</li>
+          <li>Critical Thinking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects & Certifications</h2>
+    <ul>
+      <li>📜 Python Foundation [Infosys]</li>
+      <li>🌐 Responsive Web Design [freeCodeCamp]</li>
+      <li>🔍 Deal Scraper Project [The New College]</li>
+      <li>📜 Certificate in Java [NPTEL]</li>
+      <li>📜 Employability Skills Bootcamp [The New College]</li>
+    </ul>
+  </section>
+
+  <section id="experience" data-aos="fade-up">
+    <h2>Experience</h2>
+    <h3>Infosys Springboard Project Intern (October - December 2024)</h3>
+    <p>Conducted in-depth analysis of software deals and technologies. Developed reports and presentations for stakeholders.</p>
+    <h3>TCS Camp Ambassador (June 2024 - June 2025)</h3>
+    <p>Acted as a bridge between TCS and students, promoting learning programs and guiding peers toward career opportunities.</p>
+    <h3>Current Activities</h3>
+    <ul>
+      <li>📘 CS50's Python (Harvard)</li>
+      <li>🥋 7th-grade MMA Fighter</li>
+    </ul>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sajjadahamed.1501@gmail.com">sajjadahamed.1501@gmail.com</a></p>
+    <p>Phone: +91 7200198902</p>
+    <p><a href="https://www.linkedin.com/in/sajjad-ahamed">LinkedIn Profile</a></p>
+    <p>Address: 77 Sheik Dawood Street, Chennai</p>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Sajjad Ahamed | Portfolio</p>
+  </footer>
+
+  <script>
+    // Smooth scroll behavior
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
